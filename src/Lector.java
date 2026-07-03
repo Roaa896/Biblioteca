@@ -38,6 +38,19 @@ public class Lector {
         }
     }
 
+    public void regresarLibro(){
+        if (libroActual == null){
+            System.out.println(nombre + "no tiene ningun libro");
+        } else {
+            libroActual.devolver();
+                libroActual = null;
+        }
+    }
+
+    public void mostrarEstado() {
+        String estado = (libroActual != null) ? libroActual.getTitulo() : "sin libro" ;
+            System.out.println("Lector: " + nombre + "Libro: " + estado); 
+    }
 
 
 }

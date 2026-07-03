@@ -40,7 +40,7 @@ public class Lector {
 
     public void regresarLibro(){
         if (libroActual == null){
-            System.out.println(nombre + "no tiene ningun libro");
+            System.out.println(nombre + "no tiene ningun libro ");
         } else {
             libroActual.devolver();
                 libroActual = null;

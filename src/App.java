@@ -71,23 +71,23 @@ public class App {
 
         // Devolver libro
 
-        System.out.println("\nCamilo Roldan devuelve su libro:");
+        System.out.println(lector1.getNombre() + "\n devuelve su libro:");
 
         lector1.regresarLibro();
 
         // Tomar otro libro
 
-        System.out.println("\nCamilo Roldan toma otro libro:");
+        System.out.println(lector1.getNombre() + "\n toma otro libro:");
 
         lector1.tomarPrestado(libro3);
 
         // Como el libro3 sigue prestado por Stiven Guerrero, no podrá tomarlo.
 
-        System.out.println("\nStiven Guerrero devuelve su libro:");
+        System.out.println(lector3.getNombre() + "\n devuelve su libro:");
 
         lector3.regresarLibro();
 
-        System.out.println("\nAhora Camilo Roldan intenta nuevamente:");
+        System.out.println("\nAhora " + lector1.getNombre() + " intenta nuevamente:");
 
         lector1.tomarPrestado(libro3);
 

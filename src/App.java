@@ -81,8 +81,7 @@ public class App {
 
         lector1.tomarPrestado(libro3);
 
-        // Como el libro3 sigue prestado por Carlos,
-        // no podrá tomarlo.
+        // Como el libro3 sigue prestado por Carlos, no podrá tomarlo.
 
         System.out.println("\nCarlos devuelve su libro:");
 

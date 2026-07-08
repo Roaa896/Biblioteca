@@ -49,7 +49,7 @@ public class Lector {
 
     public void mostrarEstado() {
         String estado = (libroActual != null) ? libroActual.getTitulo() : "sin libro" ;
-            System.out.println("Lector: " + nombre + "Libro: " + estado); 
+            System.out.println("Lector: " + nombre + " | Libro: " + estado); 
     }
 
 

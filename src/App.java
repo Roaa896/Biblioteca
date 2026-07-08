@@ -53,7 +53,7 @@ public class App {
         lector4.tomarPrestado(libro4);
         lector5.tomarPrestado(libro5);
 
-        // Mostrar el edatado de los libros
+        // Mostrar el estado de los libros
 
         System.out.println("\nESTADO DE LOS LECTORES");
 
@@ -71,23 +71,23 @@ public class App {
 
         // Devolver libro
 
-        System.out.println("\nJuan devuelve su libro:");
+        System.out.println("\nCamilo Roldan devuelve su libro:");
 
         lector1.regresarLibro();
 
         // Tomar otro libro
 
-        System.out.println("\nJuan toma otro libro:");
+        System.out.println("\nCamilo Roldan toma otro libro:");
 
         lector1.tomarPrestado(libro3);
 
-        // Como el libro3 sigue prestado por Carlos, no podrá tomarlo.
+        // Como el libro3 sigue prestado por Stiven Guerrero, no podrá tomarlo.
 
-        System.out.println("\nCarlos devuelve su libro:");
+        System.out.println("\nStiven Guerrero devuelve su libro:");
 
         lector3.regresarLibro();
 
-        System.out.println("\nAhora Juan intenta nuevamente:");
+        System.out.println("\nAhora Camilo Roldan intenta nuevamente:");
 
         lector1.tomarPrestado(libro3);
 
